@@ -1,4 +1,4 @@
-package com.app.sales_force.modulos
+package com.app.sales_force.modulos.cliente
 
 
 import android.os.Bundle
@@ -18,14 +18,14 @@ private const val ARG_PARAM2 = "param2"
  * A simple [Fragment] subclass.
  *
  */
-class NotasListFragment : Fragment() {
+class CadastroClienteFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notas_list, container, false)
+        return inflater.inflate(R.layout.fragment_cadastro_cliente, container, false)
     }
 
 
